@@ -1,7 +1,6 @@
-from selenium import webdriver
+import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium_stealth import stealth
 from time import sleep
 import pyperclip
 import os
@@ -12,25 +11,10 @@ load_dotenv()
 FACEBOOK_EMAIL = os.getenv("FACEBOOK_EMAIL")
 FACEBOOK_PASSWORD = os.getenv("FACEBOOK_PASSWORD")
 
-options = webdriver.ChromeOptions()
-
-# options.add_argument("--headless")
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option('useAutomationExtension', False)
-
 
 def main():
-    driver = webdriver.Chrome(options=options)
-
-    # add stealth driver to not trigger verification
-    stealth(driver,
-            languages=["en-US", "en"],
-            vendor="duckduckgo.com",
-            platform="Ubuntu64",
-            webgl_vendor="Intel Inc.",
-            renderer="Intel Iris OpenGL Engine",
-            fix_hairline=True,
-            )
+    # Load chrome driver
+    driver = uc.Chrome()
 
     driver.get("https://www.facebook.com")
 
