@@ -11,3 +11,7 @@
   <li>After that wait 10 seconds before closing the browser windows.</li>
 </ol>
 
+<h2>Preview</h2>
+<img src="">
+
+
