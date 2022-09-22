@@ -1,8 +1,6 @@
 # Facebook birthday wishing app done by using Selenium Web Driver
 
-<ul>
-  <li>How this app works</li>
-</ul>
+<h2>How this app works</h2>
 <ol>
   <li>Get username and password from the env file</li>
   <li>Load chrome options, drivers and pass header as a normal browser to avoid bot detection.</li>
