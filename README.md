@@ -10,7 +10,6 @@
   <li>Then paste the birthday message and press enter to send the birthday wish to that person.</li>
   <li>After that wait 10 seconds before closing the browser windows.</li>
 </ol>
-
 <h2>Preview</h2>
 <img src="">
 
