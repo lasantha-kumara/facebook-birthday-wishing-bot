@@ -1,4 +1,4 @@
-import undetected_chromedriver as uc
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -14,7 +14,7 @@ FACEBOOK_PASSWORD = os.getenv("FACEBOOK_PASSWORD")
 
 def main():
     # Load undetected chrome
-    driver = uc.Chrome()
+    driver = webdriver.Chrome()
 
     driver.get("https://www.facebook.com")
 
