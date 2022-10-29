@@ -3,7 +3,6 @@
 <h2>How this app works</h2>
 <ol>
   <li>Get username and password from the env file</li>
-  <li>Load chrome options, drivers and pass header as a normal browser to avoid bot detection.</li>
   <li>After getting to home page enter email and password and press enter.</li>
   <li>Tap into aria label using css selector and get all timelines.</li>
   <li>Copy the birthday message to clipboard as selenium can't pass emojis.</li>
