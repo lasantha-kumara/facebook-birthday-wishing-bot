@@ -1,6 +1,6 @@
 # WISHBOT
 
-Automate facebook birthday wishing process using selenium web driver
+Automate facebook birthday wishing process using selenium web driver.
 
 ## Description:
 
