@@ -1,6 +1,6 @@
 # WISHBOT
 
-Automate facebook birthday wishing process using Python.
+Automate facebook birthday wishing process using Python and selenium.
 
 ## Table of contents
 * [General info](#general-info)
@@ -9,12 +9,12 @@ Automate facebook birthday wishing process using Python.
 * [Usage](#usage)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+* By using this program i can avoid the hassle of logging in and out from the facebook daily to wish facebook friends.
 	
 ## Technologies
 Project is created with:
 * Python version: 3.10.6
-* Selenium 
+* Selenium version: 4.7.2
 	
 ## Setup
 
@@ -47,9 +47,4 @@ $ python main.py
 
 ## License 
 This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/automate-facebook-birthday-wishes/blob/main/LICENSE).
-
-## Description:
-
-This program
-First this program look for username and password from the .env file form the local directory and and if found it will go to facebook home page an sign in. Then it will navigate to birthdays page and using aria-label it will add the wishing message to all input boxes.It will wait 10 seconds before closing.
 
