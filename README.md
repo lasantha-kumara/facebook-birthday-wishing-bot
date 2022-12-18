@@ -30,6 +30,19 @@ $ cd automate-facebook-birthday-wishes/
 
 # To install all dependencies
 $ pip install -r requirements.txt
+
+# Create an env file
+$ touch .env
+
+# Open the env file
+$ open .env
+```
+
+After opening the .env file add below 2 lines to the file and save it.
+
+```
+FACEBOOK_EMAIL="your_facebook_email"
+FACEBOOK_PASSWORD="your_facebook_password"
 ```
 
 ## Usage
