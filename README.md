@@ -9,7 +9,8 @@ Automate facebook birthday wishing process using [Python](https://www.python.org
 * [Usage](#usage)
 
 ## General info
-* By using this program i can avoid the hassle of logging in and out from the facebook daily to wish facebook friends.
+This is an automation project to wish people on their birthdays in facebook. 
+* This program will solve day to day wishing process by automating it.
 	
 ## Technologies
 Project is created with:
