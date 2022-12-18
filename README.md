@@ -1,6 +1,6 @@
 # WISHBOT
 
-Automate facebook birthday wishing process using Python and selenium.
+Automate facebook birthday wishing process using [Python](https://www.python.org/) and [Selenium](https://www.selenium.dev/).
 
 ## Table of contents
 * [General info](#general-info)
