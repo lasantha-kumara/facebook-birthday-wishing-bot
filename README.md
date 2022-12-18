@@ -32,10 +32,10 @@ $ cd automate-facebook-birthday-wishes/
 # To install all dependencies
 $ pip install -r requirements.txt
 
-# Create an env file
+# To create an env file
 $ touch .env
 
-# Open the env file
+# To open the env file
 $ open .env
 ```
 
