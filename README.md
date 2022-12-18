@@ -19,7 +19,8 @@ Project is created with:
 	
 ## Setup
 
-To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer.\
+From your command line run:
 
 ```
 # Clone this repository
