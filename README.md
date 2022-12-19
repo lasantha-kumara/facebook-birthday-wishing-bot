@@ -38,11 +38,21 @@ $ touch .env
 $ open .env
 ```
 
-Add these 2 lines and save it.
+Add these 2 lines and save it:
 
 ```
 FACEBOOK_EMAIL="your_facebook_email"
 FACEBOOK_PASSWORD="your_facebook_password"
+```
+
+On Linux please install on of these copy paste mechanisms:
+
+```
+sudo apt install xclip
+```
+
+```
+sudo apt install xsel
 ```
 
 ## Usage
