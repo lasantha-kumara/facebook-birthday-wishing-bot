@@ -63,6 +63,7 @@ def main():
 
     # wait 10 seconds before closing
     sleep(10)
+    print("Program successfully executed")
 
 
 main()
