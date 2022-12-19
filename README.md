@@ -9,9 +9,8 @@ Automate facebook birthday wishing process using [Python](https://www.python.org
 * [Usage](#usage)
 
 ## General info
-This is an automation project to wish people on their birthdays in facebook. 
-* This program will solve day to day birthday wishing process by automating it.
-	
+This is a commandline program to wish people on thier facebook wall automatically.
+* This program will automate the whole process of logging in and out of facebook and writing birthday message to each person.
 ## Technologies
 Project is created with:
 * Python version: 3.10.6
@@ -39,7 +38,7 @@ $ touch .env
 $ open .env
 ```
 
-After opening the .env file add below 2 lines to the file and save it.
+Add these 2 lines and save it.
 
 ```
 FACEBOOK_EMAIL="your_facebook_email"
