@@ -9,8 +9,7 @@ Automate facebook birthday wishing process using [Python](https://www.python.org
 * [Usage](#usage)
 
 ## General info
-This is a commandline program to wish people on thier facebook wall automatically.
-* This program will automate the whole process of logging in and out of facebook and writing birthday message to each person.
+This is a commandline program to wish people on thier Facebook wall automatically. This will automate the whole process of logging in and out of Facebook and writing birthday message to each person.
 ## Technologies
 Project is created with:
 * Python version: 3.10.6
@@ -45,7 +44,7 @@ FACEBOOK_EMAIL="your_facebook_email"
 FACEBOOK_PASSWORD="your_facebook_password"
 ```
 
-On Linux please install on of these copy paste mechanisms:
+On Linux please install one of these copy/paste mechanisms:
 
 ```
 sudo apt install xclip
