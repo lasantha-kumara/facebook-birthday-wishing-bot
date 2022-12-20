@@ -40,7 +40,7 @@ def main():
         By.CSS_SELECTOR, "[aria-label='Write on her timeline...']")
 
     # add birthday message to males in the lists
-    birthday_message = "Happy birthday Brother 🎂"
+    birthday_message = "Happy birthday to you 🎂"
     # copy birthday message to clipboard using pyperclip
     pyperclip.copy(birthday_message)
 
