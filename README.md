@@ -47,11 +47,23 @@ FACEBOOK_PASSWORD="your_facebook_password"
 On Linux please install one of these copy/paste mechanisms:
 
 ```
-sudo apt install xclip
+# To install the xsel utility.
+$ sudo apt install xclip 
 ```
 
 ```
-sudo apt install xsel
+# To install the xclip utility.
+$ sudo apt install xsel 
+```
+
+```
+# To install the gtk Python module.
+$ pip install gtk 
+```
+
+```
+# To install the PyQt4 Python module.
+$ pip install PyQt4 
 ```
 
 ## Usage
