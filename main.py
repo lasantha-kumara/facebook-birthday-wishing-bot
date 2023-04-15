@@ -13,8 +13,11 @@ FACEBOOK_PASSWORD = os.getenv("FACEBOOK_PASSWORD")
 
 
 def main():
-    # Load undetected chrome
-    driver = webdriver.Chrome()
+    # Load chrome driver
+    # driver = webdriver.Chrome()
+
+    # Load firefox driver
+    driver = webdriver.Firefox()
 
     driver.get("https://www.facebook.com")
 
