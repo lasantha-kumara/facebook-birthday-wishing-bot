@@ -66,6 +66,8 @@ def main():
 
     # wait 10 seconds before closing
     sleep(10)
+    driver.close()
+
     print("Program successfully executed")
 
 
