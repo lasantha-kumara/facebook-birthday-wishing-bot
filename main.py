@@ -69,6 +69,7 @@ def main():
     driver.close()
 
     print("Successfully wished birthdays on facebook")
+    return 0
 
 
 main()
