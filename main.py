@@ -68,7 +68,7 @@ def main():
     sleep(10)
     driver.close()
 
-    print("Program successfully executed")
+    print("Successfully wished birthdays on facebook")
 
 
 main()
