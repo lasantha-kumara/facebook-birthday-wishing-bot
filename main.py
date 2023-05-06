@@ -51,7 +51,7 @@ def main():
             male.send_keys(Keys.CONTROL + "v")
             # hit enter to send the message
             male.send_keys(Keys.ENTER)
-            sleep(2)
+            sleep(1)
 
     birthday_message = "Happy birthday to you 🎂"
     pyperclip.copy(birthday_message)
@@ -60,7 +60,7 @@ def main():
         for female in female_timelines:
             female.send_keys(Keys.CONTROL + "v")
             female.send_keys(Keys.ENTER)
-            sleep(2)
+            sleep(1)
 
     # wait 5 seconds before closing
     sleep(5)
