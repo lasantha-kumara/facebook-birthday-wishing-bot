@@ -29,10 +29,8 @@ def main():
 
     login_btn = driver.find_element(By.NAME, "login")
     login_btn.click()
-    sleep(2)
 
     driver.get("https://www.facebook.com/events/birthdays")
-    sleep(1)
 
     # get all birthday elements of males in birthdays page by css 'aria' label
     male_timelines = driver.find_elements(
@@ -64,8 +62,8 @@ def main():
             female.send_keys(Keys.ENTER)
             sleep(2)
 
-    # wait 10 seconds before closing
-    sleep(10)
+    # wait 5 seconds before closing
+    sleep(5)
     driver.close()
 
     print("Successfully wished birthdays on facebook")
