@@ -45,7 +45,7 @@ def main():
     # copy birthday message to clipboard using pyperclip
     pyperclip.copy(birthday_message)
 
-    if male_timelines != []:
+    if male_timelines:
         for male in male_timelines:
             # paste the birthday message
             male.send_keys(Keys.CONTROL + "v")
@@ -56,7 +56,7 @@ def main():
     birthday_message = "Happy birthday to you 🎂"
     pyperclip.copy(birthday_message)
 
-    if female_timelines != []:
+    if female_timelines:
         for female in female_timelines:
             female.send_keys(Keys.CONTROL + "v")
             female.send_keys(Keys.ENTER)
