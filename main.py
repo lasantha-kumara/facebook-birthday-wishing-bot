@@ -62,8 +62,8 @@ def main():
             female.send_keys(Keys.ENTER)
             sleep(1)
 
-    # wait 5 seconds before closing
-    sleep(5)
+    # wait 15 seconds before closing
+    sleep(15)
     driver.close()
 
     print("Successfully executed main.py")
