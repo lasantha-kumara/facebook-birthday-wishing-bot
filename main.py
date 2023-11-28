@@ -63,7 +63,7 @@ def main():
             sleep(1)
 
     # wait 15 seconds before closing
-    sleep(15)
+    sleep(10)
     driver.close()
 
     print("Successfully executed main.py")
