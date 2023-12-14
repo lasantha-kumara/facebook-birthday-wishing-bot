@@ -14,10 +14,10 @@ FACEBOOK_PASSWORD = os.getenv("FACEBOOK_PASSWORD")
 
 def main():
     # Load chrome driver
-    # driver = webdriver.Chrome()
+    driver = webdriver.Chrome()
 
     # Load firefox driver
-    driver = webdriver.Firefox()
+    #driver = webdriver.Firefox()
 
     driver.get("https://www.facebook.com")
 
@@ -29,6 +29,8 @@ def main():
 
     login_btn = driver.find_element(By.NAME, "login")
     login_btn.click()
+
+    sleep(10)
 
     driver.get("https://www.facebook.com/events/birthdays")
 
