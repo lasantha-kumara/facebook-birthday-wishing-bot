@@ -30,17 +30,21 @@ def main():
     login_btn = driver.find_element(By.NAME, "login")
     login_btn.click()
 
+	# wait for loading 
     sleep(10)
 
     driver.get("https://www.facebook.com/events/birthdays")
+	
+	# wait for loading 
+    sleep(5)
 
     # get all birthday elements of males in birthdays page by css 'aria' label
     male_timelines = driver.find_elements(
-        By.CSS_SELECTOR, "[aria-label='Write on his timeline...']")
+        By.CSS_SELECTOR, "[aria-label='Write on his profile...']")
 
     # get all birthday elements of females in birthdays page by css 'aria' label
     female_timelines = driver.find_elements(
-        By.CSS_SELECTOR, "[aria-label='Write on her timeline...']")
+        By.CSS_SELECTOR, "[aria-label='Write on her profile...']")
 
     # add birthday message to males in the lists
     birthday_message = "Happy birthday to you 🎂"
